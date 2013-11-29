@@ -1,0 +1,195 @@
+/* general structure */
+html, body {
+    height: 100%;
+    background: #111;        
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;   
+    color: #999;  
+    font-size: 16px;
+    font-weight: 300; 
+}
+
+#non_header {
+    height: 55%;
+}
+
+#bottom {
+    width: 100%;
+    height: 30%;  
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+#map_container {
+    position: relative;
+    height: 100%;
+    width: 75%;
+    float: left;
+}
+
+svg {
+    background: #FFFFB3;    
+}   
+
+#desc_div {
+    position: relative;
+    float:left;
+    width: 24.9%;
+    height: 100%; 
+    background: #111; 
+}  
+
+#desc_div_bkg {
+    height:100%; 
+    width: 25%;
+    float: right;
+    background: #0e0e0e;
+}
+
+#lender_desc, #borrower_desc {
+    height: 40%;
+    width: 90%;    
+    padding: 2px;
+    margin-left: auto;
+    margin-right:auto;
+    overflow: auto;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #1b1b1b;
+    border-radius: 15px;
+}
+
+
+/* elements to represent data */
+.arcs path {
+    fill: none;
+    stroke: #41AB5D;  
+    stroke-width: 1;
+    stroke-opacity: 0.35;
+}
+
+circle {
+    fill: steelblue;
+    fill-opacity: .8;
+    stroke: #fff;
+    stroke-width: 1;
+}
+
+/* map style */
+.graticule {
+    fill: none;
+    stroke: #777;
+    stroke-width: .5px;
+    stroke-opacity: .5;
+}
+
+.land {
+    fill: #222;
+}
+
+.boundary {
+    fill: none;
+    stroke: #fff;
+    stroke-width: .5px;
+}
+
+
+/* information */
+
+  .box{
+    position:absolute;
+    left:100px;
+    top:100px;
+    background:#eee;
+    width:700px;
+    padding:15px;
+    margin:10px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #0e0e0e; 
+  }
+  .close_box{
+    background: #000;
+    color:#fff;
+    padding:2px 5px;
+    position:absolute;
+    border-radius:3px;
+    cursor:pointer;
+    left:120px;
+    top:50px;
+  }
+  
+  
+  
+/* summary stats chart - & agriculture/food supported */
+#summary_stats {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 39%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;      
+}
+  
+#summary_stats .axis path,
+
+#summary_stats .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+#summary_stats .x.axis path {
+    display: none;
+}
+
+#summary_stats .line {
+    fill: none;
+}
+
+#summary_stats svg {
+    border-radius: 25px;
+}
+
+
+/* storyboard for story-telling mode */
+#story_container {
+  width: 100%;
+  height: 90%;
+}
+
+#storyboard {
+    width: 55%;
+    height: 90%; 
+    float: right;
+    background: #FFFFB3;
+    padding: 10px;
+    font-size: 12px;
+    color: #000000;
+    overflow: auto;
+    border-radius: 25px;   
+}
+
+#storyboard b {
+    font-size: 20px;
+}
+
+
+/* buttons */
+.btn btn-success active {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #ff0000;
+}
+
+button.active {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ff0000;
+}
