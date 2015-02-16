@@ -64,7 +64,7 @@ var path = d3.geo.path()
 	/*** prepare high level elements ***/
 	
 // prepare svg container
-svg = d3.select("#map_container").insert("svg:svg")
+svg = d3.select("#map_container").append("svg:svg")
     .attr("viewBox", "0 0 " + w + " " + h )
     .attr("preserveAspectRatio", "xMidYMid meet");
 
