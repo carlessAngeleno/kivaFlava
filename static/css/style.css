@@ -50,7 +50,7 @@ svg {
   background: #0e0e0e;
 }
 */
-/*#lender_desc, #borrower_desc {
+#lender_desc, #borrower_desc {
   height: 40%;
   width: 90%;    
   padding: 2px;
@@ -62,7 +62,7 @@ svg {
   border-color: #1b1b1b;
   border-radius: 15px;
 }
-*/
+
 
 /* elements to represent data */
 .arcs path {
