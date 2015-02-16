@@ -1,0 +1,59 @@
+<div id ="header_menu" class="navbar navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="index.html"> <b>Kiva Activities (U.S. Lenders)</b></a>
+      <div class="nav-collapse collapse">   
+        <ul class="nav">
+          <li class="divider-vertical"></li>
+        
+          <li><a href="#">1. Select lender occupation:</a></li>             
+          <li>
+            <input id="search_box" class="navbar-search search-query" type="text" placeholder="by typing one in...">
+          </li>
+          <li class="btn-group">
+            <button class="btn"> or choosing from this list:</button>
+            <button class="btn dropdown-toggle" data-toggle="dropdown">
+              <span class="caret"></span>
+            </button>
+            <ul id="menu_occupation" class="dropdown-menu">
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CPA</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Social Worker</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Law student</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Doctor</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Banker</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Engineer</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">attorney</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Business</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Computer Programmer</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">artist</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Project Manager</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">business owner</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">designer</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Program Manager</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Systems Analyst</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Software Developer</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Mom </a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Architect</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Physician</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Scientist</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Carpenter</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sales</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Educator</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Graphic Designer</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Graduate Student</a></li>
+            </ul>
+          </li>
+          <li class="divider-vertical"></li>
+          <li class="btn-group">
+          <button id="summary_stats_button" class="btn btn-primary" type="button" data-loading-text="loading..." onclick='parseList(hk_list)'>Load Data</button>
+          </li>      
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>  <!------ end of header ------>
