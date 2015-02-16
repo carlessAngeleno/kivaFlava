@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<html>
-  <head>   
-    {{include 'default/load-static.html'}}
-  </head>
-  <body> 
-    {{include 'default/primary-navbar.html'}}
-    {{include 'default/secondary-navbar.html'}}
-    {{include 'default/map-canvas.html'}}
-    {{include 'default/bottom.html'}}
-    <script type="text/javascript" src="/kivaflava/static/js/summary_stats.js"></script>
-  </body>
-</html>
+{{extend 'layout.html'}}
+{{include 'default/map-canvas.html'}}
+{{include 'default/bottom.html'}}
