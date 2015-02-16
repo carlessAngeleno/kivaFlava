@@ -126,7 +126,8 @@ circle {
   
   
 /* summary stats chart - & agriculture/food supported */
-#summary_stats {
+
+/*#summary_stats {
   position: relative;
   float: left;
   height: 100%;
@@ -136,7 +137,7 @@ circle {
   margin-top: auto;
   margin-bottom: auto;      
 }
-  
+*/  
 #summary_stats .axis path,
 
 #summary_stats .axis line {
@@ -165,7 +166,7 @@ circle {
 }
 
 #storyboard {
-  width: 55%;
+  /*width: 55%;*/
   height: 90%; 
   float: right;
   background: #FFFFB3;
