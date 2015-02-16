@@ -48,6 +48,8 @@
   }}
 
   {{include 'web2py_ajax.html'}}
+  
+  <link type="text/css" rel="stylesheet" href="/kivaflava/static/css/style.css"/>
 
   {{
   # using sidebars need to know what sidebar you want to use
@@ -66,7 +68,6 @@
 </head>
 
 <body>
-  {{include 'default/load-static.html'}}
   {{include 'default/primary-navbar.html'}}
   {{include 'default/secondary-navbar.html'}}
   <div class="row-fluid">
@@ -112,6 +113,17 @@
 
   <!-- The javascript =============================================
        (Placed at the end of the document so the pages load faster) -->
+  <script type="text/javascript" src="/kivaflava/static/js/jquery-1.9.1.min.js"></script>  
+  <script type="text/javascript" src="/kivaflava/static/js/d3.js"></script>
+  <script type="text/javascript" src="/kivaflava/static/js/d3.csv.js"></script>
+  <script type="text/javascript" src="/kivaflava/static/js/d3.geo.js"></script>
+  <script type="text/javascript" src="/kivaflava/static/js/d3.geom.js"></script>
+  <script type="text/javascript" src="/kivaflava/static/js/d3.v3.min.js"></script> 
+  <script type="text/javascript" src="/kivaflava/static/js/d3.geo.projection.v0.min.js"></script>
+  <script type="text/javascript" src="/kivaflava/static/js/topojson.v0.min.js"></script>    
+  <script type="text/javascript" src="/kivaflava/static/js/crossfilter.min.js"></script>  
+  <script type="text/javascript" src="/kivaflava/static/js/queue.min.js"></script>       
+  <script type="text/javascript" src="/kivaflava/static/js/hk_js.js"></script>        
   <script type="text/javascript" src="/kivaflava/static/js/summary_stats.js"></script>
   <script src="{{=URL('static','js/bootstrap.min.js')}}"></script>
   <script src="{{=URL('static','js/web2py_bootstrap.js')}}"></script>
