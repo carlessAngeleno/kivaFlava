@@ -94,7 +94,6 @@ $(document).ready(function() {
 /*  Returns settings for the summary stats svg
     (based on Sofia's example code for D3 lab) */
 function call_settings_summary_stats() {
-
     var margin = {top: 10, right: 50, bottom: 50, left: 50}, 
         width = $("#summary_stats").width() - margin.left - margin.right,
         height = $("#summary_stats").height() - margin.top - margin.bottom - 20;    

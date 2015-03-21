@@ -138,8 +138,12 @@ circle {
   margin-bottom: auto;      
 }
 */  
-#summary_stats .axis path,
 
+#summary_stats, #storyboard {
+  height: 200px;
+}
+
+#summary_stats .axis path,
 #summary_stats .axis line {
   fill: none;
   stroke: #000;
@@ -167,7 +171,6 @@ circle {
 
 #storyboard {
   /*width: 55%;*/
-  height: 90%; 
   float: right;
   background: #FFFFB3;
   padding: 10px;
