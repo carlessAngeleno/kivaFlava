@@ -5,8 +5,8 @@ html, body {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
   color: #999;
+  font-size: 14px;
 }
 
 .navbar {
@@ -27,6 +27,10 @@ button.active {
 
 
 /********** COMPONENTS **********/
+#search_box {
+  width: 150px;
+}
+
 #borrower_wrapper {
   padding-top: 10px;
 }
@@ -73,6 +77,10 @@ button.active {
 }
 
 /********** MAP **********/
+#map_container svg {
+  border-radius: 5px;
+}
+
 #map_container svg g.arcs path {
   fill: none;
   stroke: #41AB5D;  
@@ -102,4 +110,8 @@ button.active {
   fill: none;
   stroke: #fff;
   stroke-width: .5px;
+}
+
+#map_container svg text {
+  font-size: 18px;
 }
