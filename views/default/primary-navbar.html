@@ -16,8 +16,8 @@
             <input id="search_box" class="navbar-search search-query" type="text" placeholder="by typing one in...">
           </li>
           <li class="btn-group">
-            <button class="btn"> or choosing from this list:</button>
-            <button class="btn dropdown-toggle" data-toggle="dropdown">
+            <button class="btn btn-default ca_button"> or choosing from this list:</button>
+            <button class="btn btn-default dropdown-toggle ca_button" data-toggle="dropdown">
               <span class="caret"></span>
             </button>
             <ul id="menu_occupation" class="dropdown-menu">
@@ -50,9 +50,10 @@
           </li>
           <li class="divider-vertical"></li>
           <li class="btn-group">
-          <button id="summary_stats_button" class="btn btn-primary" type="button" data-loading-text="loading..." onclick='parseList(hk_list)'>Load Data</button>
+          <button id="summary_stats_button" class="btn btn-primary ca_button" type="button" data-loading-text="loading..." onclick='parseList(hk_list)'>Load Data</button>
           </li>      
         </ul>
+        {{include '../../shared/views/generic/also_by.html'}}
       </div>
     </div>
   </div>
