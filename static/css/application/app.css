@@ -1,0 +1,90 @@
+/***** Override ca *****/
+.navbar-inner .container, .navbar-inverse div.navbar-inner {
+  background-image: none;
+  background-color: #212121;  
+}
+
+.navbar-inverse div.navbar-inner  {
+  /*border-color: #212121;*/
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav>li>a {
+  color: #999;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+}
+
+.container a.brand {
+  color: #c6cecc;
+}
+
+a.ca_button, a.ca_button:hover {
+  background-image: none;  
+  border-radius: 4px;
+  color: #ffffff;
+  border: none;  
+  font-size: 14px;
+  text-shadow: none;
+}
+
+.nav .dropdown-toggle .caret {
+  border-top-color: #333;
+  border-bottom-color: #333;;
+}
+
+.tab-content {
+  overflow: auto;
+  min-height: 0px;
+}
+
+/* app specific */
+
+button.ca_button:hover {
+  background-color: rgba(255, 110, 86, 1);  
+}
+
+button.ca_button.active {
+  background-color: rgba(255, 110, 86, 0.7);
+  color: #fff;  
+}
+
+button.btn-default.ca_button {
+  background-color: #EEEEEE;
+  opacity: 0.9;
+  color: #333;
+}
+
+button.btn-default.ca_button:hover {
+  opacity: 1;
+}
+
+button.btn-primary.ca_button {
+  background-color: #00BCD4;
+  opacity: 0.9;  
+}
+
+button.btn-primary.ca_button:hover {
+  opacity: 1;
+}
+
+button.btn-danger.ca_button {
+  background-color: #F44336;
+  opacity: 0.9;  
+}
+
+button.btn-danger.ca_button:hover {
+  opacity: 1;
+}
+
+button.btn-success.ca_button, a.btn-success.ca_button {
+  background-color: #4CAF50;
+  opacity: 0.9;  
+}
+
+button.btn-success.ca_button:hover, a.btn-success.ca_button:hover {
+  background-color: #4CAF50;
+  opacity: 1;
+}
+
+.nav-pills>.active>a, .nav-pills>.active>a:hover {
+  background-color: rgba(255, 110, 86, 0.9);  
+}
