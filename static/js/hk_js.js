@@ -121,7 +121,7 @@ var legend = svg.append("g")
     .attr("class", "legend")
     .attr("height", 100)
     .attr("width", 100)  
-    .attr('transform', 'translate(-' + (w - 50) + ', ' + (h - 300) + ')');
+    .attr('transform', 'translate(-' + (w - 200) + ', ' + (h - 400) + ')');
 
 legend.selectAll('rect')
     .data(sector_colors_array)
