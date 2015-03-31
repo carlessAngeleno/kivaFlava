@@ -38,6 +38,14 @@ a.ca_button, a.ca_button:hover {
 
 /* app specific */
 
+div.footer-content {
+  bottom: 0;
+}
+
+div.copyright {
+  color: #999;
+}
+
 button.ca_button:hover {
   background-color: rgba(255, 110, 86, 1);  
 }
@@ -85,6 +93,11 @@ button.btn-success.ca_button:hover, a.btn-success.ca_button:hover {
   opacity: 1;
 }
 
-.nav-pills>.active>a, .nav-pills>.active>a:hover {
-  background-color: rgba(255, 110, 86, 0.9);  
+.nav-pills a {
+  color: rgba(256, 256, 256, 0.54);
+  background-color: #212121;
+}
+
+.nav-pills a:hover {
+  color: #4a4a4a;
 }
