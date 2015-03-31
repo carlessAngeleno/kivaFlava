@@ -21,10 +21,13 @@ body {
 
 
 /********** OVERRIDE BOOTSTRAP **********/
-button.active {
-  border: 3px solid #ff0000;
+button.ca_button.timeline.active {
+  background-color: #F44336;
 }
 
+button.ca_button.timeline:hover {
+  background-color: #F44336;
+}
 
 /********** COMPONENTS **********/
 #search_box {
